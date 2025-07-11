@@ -42,6 +42,9 @@ parameters:
   - label:
       en_US: latent-consistency
     value: latent-consistency
+  - label:
+      en_US: flux-schnell
+    value: flux-schnell
   required: false
   type: select
 - form: form
@@ -175,7 +178,7 @@ parameters:
   human_description:
     en_US: The number of denoising steps. More steps usually can produce higher quality
       images, but take more time to generate.  It's just efficient for `Stable Diffusion
-      XL`, `Stable Diffusion`, `Latent Consistency` mode.
+      XL`, `Stable Diffusion`, `Latent Consistency`, `FLUX.1 [schnell]` mode.
   label:
     en_US: steps
   name: steps
